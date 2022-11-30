@@ -1,0 +1,7 @@
+<launch>
+    <node name="central_control" pkg="central_control" type="central_control"/>
+    <node name="robot1_run" pkg="move_robot" type="move_robot" args="_robot_num:=1"/>
+    <node name="robot2_run" pkg="move_robot" type="move_robot" args="_robot_num:=2"/>
+    <node name="robot3_run" pkg="move_robot" type="move_robot" args="_robot_num:=3"/>
+    <node name="robot4_run" pkg="move_robot" type="move_robot" args="_robot_num:=4"/>
+</launch>
